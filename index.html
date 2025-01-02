@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+   <div class="weatherContainer">
+      <div class="searchBox">
+        <input type="text" class="search" id="searchcity" placeholder="Enter Your Location" >
+        <button id="clickBtn"><i class="fa-duotone fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    
+    <div class="imagecontainer">
+        <img src="./assets/rain.webp" alt="" height="300px" width="390px" class="image">
+    </div>
+    <div class="description">
+        <span id="temparature">0 <sup>°C </sup> </span>
+        <p id="climate">Light Rain</p>
+    </div>
+    <div class="weatherdetails">
+        
+        <div class="humidity">
+            <i class="fa-sharp fa-solid fa-droplet"></i>
+            <span id="humidityweather" style="font-size: 30px; font-weight: bolder;">45%</span>
+            <p style="font-size: 20px;font-weight: bolder;margin-left: 30px;">Humidity</p>
+        </div>
+        <div class="wind">
+            <i class="fa-sharp-duotone fa-solid fa-wind"></i>
+            <span id="crispy" style="font-size: 30px; font-weight: bolder;">12km/h</span>
+            <p style="font-size: 20px; font-weight: bolder;margin-left:30px ;">Wind Speed</p>
+    
+    </div>
+    </div>
+   
+   </div>
+</body>
+<script src="style.js"></script>
+</html>
