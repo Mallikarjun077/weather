@@ -17,7 +17,7 @@ body{
 .weatherContainer{
     width: 400px;
     height: min-content;
-    background:orangered;
+    background-color: rgb(4, 61, 90);
     color: black;
     margin: 50px;
     border-radius: 15px;
